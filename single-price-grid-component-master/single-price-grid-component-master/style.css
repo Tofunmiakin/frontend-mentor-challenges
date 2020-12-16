@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body{
+  font-family: Karla ;
+  font-size: 16px;
+  /* padding: 50px; */
+}
+
+
+.top-div{
+  padding: 50px;
+}
+
+.header{
+  font-weight: 400;
+  color: hsl(179, 62%, 43%);
+  font-size: 1.5rem;
+}
+
+.second-header{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: hsl(71, 73%, 54%);
+}
+
+.paragraph{
+  font-weight: 400;
+  color:hsl(218, 22%, 67%) ;
+}
+
+.bottom-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-div{
+  background-color:hsl(179, 62%, 43%) ;
+  padding: 20px;
+}
+
+.ms{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: hsl(204, 43%, 93%) ;
+}
+
+/* .price{
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(204, 43%, 93%)
+} */
+
+
+span b{
+  font-size: 2rem;
+  color: hsl(204, 43%, 93%) ;
+  font-weight: 700;
+  padding-right: 6px;
+
+}
+
+span{
+  color:hsl(218, 22%, 67%) ;
+  font-weight: 700;
+}
+
+.txt{
+  color: hsl(204, 43%, 93%) ;
+}
+
+.btn{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: hsl(71, 73%, 54%) ;
+  color:  hsl(204, 43%, 93%);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px grey;
+}
+
+.right-div{
+  background-color:hsl(177, 39%, 57%) ;
+  padding: 20px;
+}
+
+.wu{
+  color: hsl(204, 43%, 93%) ;
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 20px;
+  color: hsl(204, 43%, 93%) ;
+  font-weight: 400;
+}
