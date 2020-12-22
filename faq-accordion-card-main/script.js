@@ -6,3 +6,12 @@ function accordionDrop(id) {
     x.className = x.className.replace("panel", "");
   }
 }
+
+function changeFont() {
+
+  document.getElementsByClassName('accordion').style.fontWeight = "700";
+  
+}
+
+
+
